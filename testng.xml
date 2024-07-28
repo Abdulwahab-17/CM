@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Billing.CaseStatus"/>
+      <class name="Billing.Denial"/>
+      <class name="BillingCodes.FeeType"/>
+      <class name="Patient.Marketing"/>
+      <class name="BillingInsurance.PlanType"/>
+      <class name="Billing.PlaceOfService"/>
+      <class name="Patient.InsuranceMedicalTreatment"/>
+      <class name="Practice.PracticeList"/>
+      <class name="Employer.employer"/>
+      <class name="User.Department"/>
+      <class name="BillingCodes.ICD10Codes"/>
+      <class name="Billing.Region"/>
+      <class name="Patient.PatientList"/>
+      <class name="User.Designation"/>
+      <class name="Provider.BillingPlanName"/>
+      <class name="Billing.BillingTitle"/>
+      <class name="BillingCodes.CodeType"/>
+      <class name="Billing.PaymentType"/>
+      <class name="BillingInsurance.PlanName"/>
+      <class name="Billing.PaidBy"/>
+      <class name="BillingCodes.CPTCodes"/>
+      <class name="Billing.VerificationType"/>
+      <class name="Patient.InsuranceSubInsurance"/>
+      <class name="BillingInsurance.Insurance"/>
+      <class name="Provider.BillingInsurance"/>
+      <class name="Provider.Login"/>
+      <class name="BillingCodes.HCPCS"/>
+      <class name="Patient.InsuranceAttorney"/>
+      <class name="User.EmploymentType"/>
+      <class name="Billing.Modifiers"/>
+      <class name="User.UserRoles"/>
+      <class name="BillingAttorney.Attorney"/>
+      <class name="Billing.BillingEmploymentType"/>
+      <class name="Patient.CaseList"/>
+      <class name="Provider.BillingPlanType"/>
+      <class name="Patient.InsuranceEmployer"/>
+      <class name="BillingInsurance.AdjusterInformation"/>
+      <class name="Patient.Referrals"/>
+      <class name="Login.LogIn"/>
+      <class name="Provider.ProviderVisitType"/>
+      <class name="Patient.InsuranceAccident"/>
+      <class name="Practice.Hospital"/>
+      <class name="Provider.ProviderCaseType"/>
+      <class name="Provider.ProviderSpeciality"/>
+      <class name="User.EmploymentBy"/>
+      <class name="Provider.BillingAdjusterInformation"/>
+      <class name="BillingAttorney.AttorneyFirm"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

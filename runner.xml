@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="configuration.Listeners" />
+		<listener class-name="configuration.ExtentReporterNG" />
+	</listeners>
+
+
+
+
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="configuration.base"></class>
+			<class name="Login.LogIn" />
+
+
+
+			<class name="Billing.PaymentType"></class>
+			<class name="Billing.VerificationType"></class>
+			<class name="Billing.Denial"></class>
+			<class name="Billing.PaidBy"></class>
+			<class name="Billing.PlaceOfService"></class>
+			<class name="Billing.Modifiers"></class>
+			<class name="Billing.CaseStatus"></class>
+			<class name="Billing.Region"></class>
+			<class name="Billing.BillingTitle"></class>
+			<class name="Billing.BillingEmploymentType"></class>  
+			
+
+
+
+
+
+
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
